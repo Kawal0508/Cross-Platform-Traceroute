@@ -197,10 +197,11 @@ This project is open source and available under the MIT License.
 
 ## Author
 
-Created as part of COMS 5880 - Computer Networks programming assignment.
+Created by Kawal Ostwal (Me) as part of COMS 5880 - Computer Networks programming assignment in Iowa State University.
 
 ## Acknowledgments
 
 - Built for cross-platform compatibility
 - Inspired by standard traceroute implementations
 - Designed for educational and practical use
+
