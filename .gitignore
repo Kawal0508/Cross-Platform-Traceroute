@@ -1,0 +1,66 @@
+# Cross-Platform Traceroute Tool - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# Keep traceroute_outputs/ directory but ignore test files
+traceroute_outputs/test_*
+traceroute_outputs/*_test_*
+
+# Test output files
+*_test.json
+test_*.json
+*_test_*.json
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Keep original files
+!traceroute_outputs/traceroute_run_*.txt
+!result.json

@@ -1,0 +1,15 @@
+# Cross-Platform Traceroute Tool Requirements
+# 
+# This project uses only Python standard library modules:
+# - argparse (command line parsing)
+# - subprocess (running system commands)
+# - json (output formatting)
+# - os (file operations)
+# - statistics (statistical calculations)
+# - re (regular expressions)
+# - time (delays between runs)
+# - platform (platform detection)
+# - shutil (command detection)
+#
+# No external dependencies required!
+# Python 3.6+ recommended for best compatibility
